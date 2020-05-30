@@ -36,7 +36,7 @@
 	veinSpeed = 1.0
 	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 32) * 64 = 100 hardness worth of logs, which is 50 Logs)
 	#Range: 0.01 ~ 10000.0
-	levelsPerHardnessWoodcutting = 32.0
+	levelsPerHardnessWoodcutting = 2.0
 	#Is vein mining allowed? true = on, false = off
 	veiningAllowed = true
 	#How much is the lowest cost for each block veined? (1 = 1% of max)
@@ -109,12 +109,12 @@
 	#Should place requirements be enabled? False means no requirements
 	placeReqEnabled = true
 	#Should config from default_data.json be loaded? False means only data.json is loaded
-	loadDefaultConfig = true
+	loadDefaultConfig = false
 
 [Levels]
 	#What is the global max level
 	#Range: 1 ~ 1000000
-	maxLevel = 999
+	maxLevel = 200
 	#What is the xp increase per level ( baseXp + level * xpPerLevel )
 	#Range: 1 ~ 1000000
 	xpIncreasePerLevel = 50
