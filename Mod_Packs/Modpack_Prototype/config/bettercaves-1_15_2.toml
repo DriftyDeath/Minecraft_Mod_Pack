@@ -226,7 +226,7 @@
 			# Determines how large cavern regions are. This controls the average size of caverns.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).
-			"Cavern Region Size" = "Small"
+			"Cavern Region Size" = "Medium"
 
 			###########################################################################################################
 			## Settings used in the generation of Floored Caverns found at low altitudes.
