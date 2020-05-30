@@ -15,7 +15,7 @@
 # and is required for a server to restart if it crashes.
 # Please ensure your server supports this file format and it is setup within spigot.yml
 #
-auto-reboot=false
+auto-reboot=true
 
 ### Server URL redirection
 #
@@ -46,7 +46,7 @@ heaplimited=1
 # Possible Settings: true, false
 # Default: false
 #
-utf8=false
+utf8=true
 
 # This option removes the 20 second wait time by adding the -DIKnowWhatImDoingISwear flag to your servers startup command
 #
