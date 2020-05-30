@@ -1,0 +1,3 @@
+#If true, replaces chainmail armor's repair item with chainmail plates.
+replaceChainmailRepairMaterial = true
+

@@ -36,7 +36,7 @@
 	veinSpeed = 1.0
 	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 32) * 64 = 100 hardness worth of logs, which is 50 Logs)
 	#Range: 0.01 ~ 10000.0
-	levelsPerHardnessWoodcutting = 32.0
+	levelsPerHardnessWoodcutting = 2.0
 	#Is vein mining allowed? true = on, false = off
 	veiningAllowed = true
 	#How much is the lowest cost for each block veined? (1 = 1% of max)
@@ -86,8 +86,6 @@
 	plantEnabled = true
 	#Should break requirements be enabled? False means no requirements
 	breakReqEnabled = true
-	#Should xp values for crafting be enabled? False means only static of 1xp is awarded upon crafting
-	xpValueCraftingEnabled = true
 	#Should ores be enabled? False means no extra chance
 	oreEnabled = true
 	#Should mob kill req be enabled? False means no requirements
@@ -111,7 +109,7 @@
 	#Should place requirements be enabled? False means no requirements
 	placeReqEnabled = true
 	#Should config from default_data.json be loaded? False means only data.json is loaded
-	loadDefaultConfig = true
+	loadDefaultConfig = false
 
 [Levels]
 	#What is the global max level
@@ -183,7 +181,7 @@
 	enduranceMultiplier = 1.0
 	#How much xp everyone gains in Combat (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	combatMultiplier = 1.0
+	combatMultiplier = 2.0
 	#How much xp everyone gains (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
 	globalMultiplier = 1.0
@@ -279,9 +277,9 @@
 [Farming]
 	#Do players get xp for breeding animals?
 	breedingXpEnabled = true
-	#How much xp should be awarded in Farming for breeding two animals? (Json Overrides this)
+	#How much xp should be awarded in Farming for breeding two animals? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
-	breedingXp = 10.0
+	defaultBreedingXp = 10.0
 
 [Agility]
 	#Every how many levels you gain an extra block of jumping height while Crouching
@@ -394,6 +392,16 @@
 	passiveMobHunterXp = 0.0
 
 [Taming]
-	#Do players get xp for taming animals? (no default values, need to fill them in json config)
+	#How much xp should be awarded in Taming for Taming an animal? (Json Overrides this) (Set to 0 to disable default xp)
+	#Range: 0.0 ~ 1000000.0
+	defaultTamingXp = 0.0
+	#Do players get xp for taming animals?
 	tamingXpEnabled = true
+
+[Crafting]
+	#How much xp should be awarded in Crafting for each item crafted? (Json Overrides this) (Set to 0 to disable default xp)
+	#Range: 0.0 ~ 1000000.0
+	defaultCraftingXp = 1.0
+	#Should xp values for crafting be enabled? False means the default value is used
+	xpValueCraftingEnabled = true
 

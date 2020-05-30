@@ -1,8 +1,13 @@
 {
+  "explorercraft:explorercraft/root": {
+    "criteria": {
+      "explorercraft": "2020-05-30 01:23:05 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2020-05-29 23:53:28 -0700",
-      "minecraft:swamp": "2020-05-29 23:54:45 -0700"
+      "minecraft:forest": "2020-05-30 01:23:05 -0700"
     },
     "done": false
   },
