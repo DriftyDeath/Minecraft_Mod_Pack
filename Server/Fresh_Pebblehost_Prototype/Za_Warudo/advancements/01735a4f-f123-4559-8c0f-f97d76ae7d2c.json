@@ -1,0 +1,28 @@
+{
+  "explorercraft:explorercraft/root": {
+    "criteria": {
+      "explorercraft": "2020-05-30 12:13:34 +0000"
+    },
+    "done": true
+  },
+  "explorercraft:explorercraft/exploring_time": {
+    "criteria": {
+      "infected_forest": "2020-05-30 12:13:34 +0000"
+    },
+    "done": false
+  },
+  "explorercraft:explorercraft/fungal_forest": {
+    "criteria": {
+      "forested_mountain": "2020-05-30 12:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2020-05-30 12:14:09 +0000",
+      "minecraft:plains": "2020-05-30 12:14:26 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}
