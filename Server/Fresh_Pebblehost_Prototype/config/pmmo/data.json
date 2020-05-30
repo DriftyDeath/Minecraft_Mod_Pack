@@ -105,7 +105,8 @@
 			"endurance": 45 
 		},
 		"explorercraft:wizard_hat": {
-			"endurance": 5
+			"endurance": 5,
+			"magic": 10
 		},
 		"midnight:rockshroom_helmet": {
 			"endurance": 15
@@ -650,28 +651,28 @@
 		}
 	},
 	"use_requirement": {
+		"minecraft:glass_bottle": {
+			"farming": 5
+		},
 		"minecraft:water_bucket": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:pufferfish_bucket": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:salmon_bucket": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:cod_bucket": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:tropical_fish_bucket": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:lava_bucket": {
 			"building": 20
 		},
 		"minecraft:blast_furnace": {
-			"crafting": 10
-		},
-		"minecraft:barrel": {
 			"crafting": 10
 		},
 		"minecraft:cartography_table": {
@@ -690,6 +691,54 @@
 			"magic": 40
 		},
 		"minecraft:shulker_box": {
+			"magic": 40
+		},
+		"minecraft:white_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:orange_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:magenta_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:light_blue_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:yellow_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:lime_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:pink_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:gray_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:light_gray_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:cyan_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:purple_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:blue_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:brown_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:green_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:red_shulker_box": {
+			"magic": 40
+		},
+		"minecraft:black_shulker_box": {
 			"magic": 40
 		},
 		"minecraft:firework_rocket": {
@@ -712,10 +761,10 @@
 			"archery": 30
 		},
 		"minecraft:bee_nest": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:beehive": {
-			"farming": 15
+			"farming": 10
 		},
 		"minecraft:brewing_stand": {
 			"magic": 10
@@ -723,8 +772,14 @@
 		"minecraft:ender_pearl": {
 			"magic": 5
 		},
+		"minecraft:ender_eye": {
+			"magic": 10
+		},
 		"minecraft:end_portal_frame": {
 			"magic": 30
+		},
+		"minecraft:beacon": {
+			"magic": 40
 		},
 		"midnight:nightstone_furnace": {
 			"crafting": 5
@@ -776,6 +831,21 @@
 		},
 		"explorercraft:wizard_staff": {
 			"magic": 20
+		},
+		"midnight:nightshroom_spore_bomb": {
+			"magic": 10
+		},
+		"midnight:dewshroom_spore_bomb": {
+			"magic": 10
+		},
+		"midnight:viridshroom_spore_bomb": {
+			"magic": 10
+		},
+		"midnight:bogshroom_spore_bomb": {
+			"magic": 10
+		},
+		"midnight:bladeshroom_cap": {
+			"archery": 5
 		},
 		"midnight:rockshroom_shield": {
 			"endurance": 15
@@ -844,7 +914,7 @@
 			"magic": 30
 		},
 		"waystones:warp_scroll": {
-			"magic": 50
+			"magic": 40
 		},
 		"waystones:waystone": {
 			"magic": 20
@@ -866,34 +936,65 @@
 		"minecraft:barrier": {
 			"building": 999
 		},
-		"minecraft:scaffolding": {
-			"building": 10
-		},
 		"minecraft:oak_sapling": {
-			"farming": 10,
-			"woodcutting": 15
+			"farming": 5
 		},
 		"minecraft:birch_sapling": {
-			"farming": 5,
-			"woodcutting": 10
+			"farming": 5
 		},
 		"minecraft:spruce_sapling": {
-			"farming": 15,
-			"woodcutting": 30
+			"farming": 10
 		},
 		"minecraft:jungle_sapling": {
-			"farming": 20,
-			"woodcutting": 35
+			"farming": 30
 		},
 		"minecraft:dark_oak_sapling": {
-			"farming": 15,
-			"woodcutting": 20
+			"farming": 20
 		},
 		"minecraft:acacia_sapling": {
-			"farming": 5,
-			"woodcutting": 15
+			"farming": 15
+		},
+		"minecraft:wheat_seeds": {
+			"farming": 1
+		},
+		"minecraft:kelp": {
+			"farming": 1
+		},
+		"minecraft:bamboo": {
+			"farming": 5
+		},
+		"minecraft:sugar_cane": {
+			"farming": 5
+		},
+		"minecraft:beetroot_seeds": {
+			"farming": 5
+		},
+		"minecraft:cocoa_beans": {
+			"farming": 10
+		},
+		"minecraft:pumpkin_seeds": {
+			"farming": 10
+		},
+		"minecraft:carrot": {
+			"farming": 10
+		},
+		"minecraft:potato": {
+			"farming": 15
+		},
+		"minecraft:melon_seeds": {
+			"farming": 15
+		},
+		"minecraft:sweet_berries": {
+			"farming": 20
+		},
+		"minecraft:nether_wart": {
+			"farming": 20,
+			"magic": 5
 		},
 		"minecraft:lever": {
+			"building": 1
+		},
+		"minecraft:stone_button": {
 			"building": 1
 		},
 		"minecraft:oak_button": {
@@ -938,7 +1039,37 @@
 		"minecraft:daylight_detector": {
 			"building": 5
 		},
+		"minecraft:stone_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:oak_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:spruce_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:birch_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:jungle_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:acacia_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:dark_oak_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:light_weighted_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:heavy_weighted_pressure_plate": {
+			"building": 5
+		},
 		"minecraft:repeater": {
+			"building": 10
+		},
+		"minecraft:lectern": {
 			"building": 10
 		},
 		"minecraft:note_block": {
@@ -995,24 +1126,179 @@
 		"minecraft:tnt_minecart": {
 			"building": 35
 		},
+		"explorercraft:ash_button": {
+			"building": 1
+		},
+		"explorercraft:bamboo_button": {
+			"building": 1
+		},
+		"explorercraft:cherry_button": {
+			"building": 1
+		},
+		"explorercraft:maple_button": {
+			"building": 1
+		},
+		"explorercraft:willow_button": {
+			"building": 1
+		},
+		"explorercraft:infected_willow_button": {
+			"building": 1
+		},
+		"explorercraft:ash_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:bamboo_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:cherry_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:maple_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:willow_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:infected_willow_pressure_plate": {
+			"building": 5
+		},
 		"explorercraft:ash_sapling": {
-			"woodcutting": 60
+			"farming": 40
 		},
 		"explorercraft:bamboo_sapling": {
-			"woodcutting": 10,
 			"farming": 5
 		},
 		"explorercraft:cherry_sapling": {
-			"woodcutting": 25,
-			"farming": 15
+			"farming": 20
 		},
 		"explorercraft:maple_sapling": {
-			"woodcutting": 15,
 			"farming": 10
 		},
 		"explorercraft:willow_sapling": {
-			"woodcutting": 40,
-			"farming": 15
+			"farming": 20
+		},
+		"explorercraft:rice": {
+			"farming": 5
+		},
+		"explorercraft:leek": {
+			"farming": 1
+		},
+		"explorercraft:noctiluca": {
+			"farming": 5
+		},
+		"midnight:midnight_lever": {
+			"building": 1
+		},
+		"midnight:shadowroot_button": {
+			"building": 1
+		},
+		"midnight:dead_wood_button": {
+			"building": 1
+		},
+		"midnight:dark_willow_button": {
+			"building": 1
+		},
+		"midnight:nightshroom_button": {
+			"building": 1
+		},
+		"midnight:dewshroom_button": {
+			"building": 1
+		},
+		"midnight:viridshroom_button": {
+			"building": 1
+		},
+		"midnight:bogshroom_button": {
+			"building": 1
+		},
+		"midnight:nightstone_button": {
+			"building": 1
+		},
+		"midnight:trenchstone_button": {
+			"building": 1
+		},
+		"midnight:rockshroom_brick_button": {
+			"building": 1
+		},
+		"midnight:shadowroot_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dead_wood_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dark_willow_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nightshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dewshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:viridshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:bogshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nightstone_pressure_plate": {
+			"building": 5
+		},
+		"midnight:trenchstone_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nagrilite_pressure_plate": {
+			"building": 5
+		},
+		"midnight:tenebrum_pressure_plate": {
+			"building": 5
+		},
+		"midnight:rockshroom_brick_pressure_plate": {
+			"building": 5
+		},
+		"midnight:shadowroot_sapling": {
+			"farming": 5
+		},
+		"midnight:dark_willow_sapling": {
+			"farming": 30
+		},
+		"midnight:glob_fungus": {
+			"farming": 10,
+			"magic":5
+		},
+		"midnight:nightshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:double_nightshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:dewshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:double_dewshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:viridshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:double_viridshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:bogshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"midnight:double_bogshroom": {
+			"farming": 20,
+			"magic":10
+		},
+		"sereneseasons:season_sensor":{
+			"building": 10
 		}
 		
 	},
@@ -1025,6 +1311,42 @@
 		},
 		"minecraft:barrier": {
 			"mining": 999
+		},
+		"minecraft:acacia_log": {
+			"woodcutting": 10
+		},
+		"minecraft:stripped_acacia_log": {
+			"woodcutting": 10
+		},
+		"minecraft:acacia_wood": {
+			"woodcutting": 10
+		},
+		"minecraft:stripped_acacia_wood": {
+			"woodcutting": 10
+		},
+		"minecraft:dark_oak_log": {
+			"woodcutting": 20
+		},
+		"minecraft:stripped_dark_oak_log": {
+			"woodcutting": 20
+		},
+		"minecraft:dark_oak_wood": {
+			"woodcutting": 20
+		},
+		"minecraft:stripped_dark_oak_wood": {
+			"woodcutting": 20
+		},
+		"minecraft:jungle_log": {
+			"woodcutting": 30
+		},
+		"minecraft:stripped_jungle_log": {
+			"woodcutting": 30
+		},
+		"minecraft:jungle_wood": {
+			"woodcutting": 30
+		},
+		"minecraft:stripped_jungle_wood": {
+			"woodcutting": 30
 		},
 		"minecraft:iron_ore": {
 			"mining": 5
@@ -1047,6 +1369,9 @@
 		"minecraft:lever": {
 			"building": 1
 		},
+		"minecraft:stone_button": {
+			"building": 1
+		},
 		"minecraft:oak_button": {
 			"building": 1
 		},
@@ -1089,7 +1414,37 @@
 		"minecraft:daylight_detector": {
 			"building": 5
 		},
+		"minecraft:stone_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:oak_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:spruce_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:birch_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:jungle_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:acacia_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:dark_oak_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:light_weighted_pressure_plate": {
+			"building": 5
+		},
+		"minecraft:heavy_weighted_pressure_plate": {
+			"building": 5
+		},
 		"minecraft:repeater": {
+			"building": 10
+		},
+		"minecraft:lectern": {
 			"building": 10
 		},
 		"minecraft:note_block": {
@@ -1144,7 +1499,43 @@
 			"building": 40
 		},
 		"minecraft:tnt_minecart": {
-			"building": 40
+			"building": 35
+		},
+		"explorercraft:ash_button": {
+			"building": 1
+		},
+		"explorercraft:bamboo_button": {
+			"building": 1
+		},
+		"explorercraft:cherry_button": {
+			"building": 1
+		},
+		"explorercraft:maple_button": {
+			"building": 1
+		},
+		"explorercraft:willow_button": {
+			"building": 1
+		},
+		"explorercraft:infected_willow_button": {
+			"building": 1
+		},
+		"explorercraft:ash_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:bamboo_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:cherry_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:maple_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:willow_pressure_plate": {
+			"building": 5
+		},
+		"explorercraft:infected_willow_pressure_plate": {
+			"building": 5
 		},
 		"explorercraft:amethyst_ore": {
 			"mining": 20
@@ -1154,6 +1545,192 @@
 		},
 		"explorercraft:jade_ore": {
 			"mining": 40
+		},
+		"explorercraft:maple_log": {
+			"woodcutting": 10
+		},
+		"explorercraft:maple_stripped_log": {
+			"woodcutting": 10
+		},
+		"explorercraft:maple_wood": {
+			"woodcutting": 10
+		},
+		"explorercraft:maple_stripped_wood": {
+			"woodcutting": 10
+		},
+		"explorercraft:cherry_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:cherry_stripped_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:cherry_wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:cherry_stripped_wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:willow_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:willow_stripped_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:willow_wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:willow_stripped__wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:infected_willow_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:infected_willow_stripped_log": {
+			"woodcutting": 20
+		},
+		"explorercraft:infected_willow_wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:infected_willow_stripped_wood": {
+			"woodcutting": 20
+		},
+		"explorercraft:ash_log": {
+			"woodcutting": 40
+		},
+		"explorercraft:ash_stripped_log": {
+			"woodcutting": 40
+		},
+		"explorercraft:ash_wood": {
+			"woodcutting": 40
+		},
+		"explorercraft:ash_stripped_wood": {
+			"woodcutting": 40
+		},
+		"midnight:midnight_lever": {
+			"building": 1
+		},
+		"midnight:shadowroot_button": {
+			"building": 1
+		},
+		"midnight:dead_wood_button": {
+			"building": 1
+		},
+		"midnight:dark_willow_button": {
+			"building": 1
+		},
+		"midnight:nightshroom_button": {
+			"building": 1
+		},
+		"midnight:dewshroom_button": {
+			"building": 1
+		},
+		"midnight:viridshroom_button": {
+			"building": 1
+		},
+		"midnight:bogshroom_button": {
+			"building": 1
+		},
+		"midnight:nightstone_button": {
+			"building": 1
+		},
+		"midnight:trenchstone_button": {
+			"building": 1
+		},
+		"midnight:rockshroom_brick_button": {
+			"building": 1
+		},
+		"midnight:shadowroot_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dead_wood_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dark_willow_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nightshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dewshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:viridshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:bogshroom_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nightstone_pressure_plate": {
+			"building": 5
+		},
+		"midnight:trenchstone_pressure_plate": {
+			"building": 5
+		},
+		"midnight:rockshroom_brick_pressure_plate": {
+			"building": 5
+		},
+		"midnight:nagrilite_pressure_plate": {
+			"building": 5
+		},
+		"midnight:tenebrum_pressure_plate": {
+			"building": 5
+		},
+		"midnight:dark_willow_log": {
+			"woodcutting": 30
+		},
+		"midnight:dark_willow_stripped_log": {
+			"woodcutting": 30
+		},
+		"midnight:dark_willow_wood": {
+			"woodcutting": 30
+		},
+		"midnight:glob_fungus_hat": {
+			"woodcutting": 10,
+			"magic":5
+		},
+		"midnight:glob_fungus_stem": {
+			"woodcutting": 10,
+			"magic":5
+		},
+		"midnight:glob_fungus_stalk": {
+			"woodcutting": 10,
+			"magic":5
+		},
+		"midnight:glob_fungus_thatch": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:nightshroom_stem": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:nightshroom_hat": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:dewshroom_stem": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:dewshroom_hat": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:viridshroom_stem": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:viridshroom_hat": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:bogshroom_stem": {
+			"woodcutting": 20,
+			"magic":10
+		},
+		"midnight:bogshroom_hat": {
+			"woodcutting": 20,
+			"magic":10
 		},
 		"oresandmetals:runite_ore": {
 			"mining": 40
@@ -1169,21 +1746,25 @@
 		},
 		"oresandmetals:copper_ore": {
 			"mining": 1
+		},
+		"sereneseasons:season_sensor":{
+			"building": 10
 		}
+
+
 	},
 	"held_item_xp_boost": {
 		"minecraft:golden_pickaxe": {
-			"mining": 50
+			"mining": 25
 		},
 		"minecraft:golden_shovel": {
-			"excavation": 50
+			"excavation": 25
 		},
 		"minecraft:golden_axe": {
-			"woodcutting": 50,
-			"combat": 50
+			"woodcutting": 25
 		},
 		"minecraft:golden_sword": {
-			"combat": 50
+			"combat": 25
 		},
 		"minecraft:golden_hoe": {
 			"farming": 20
@@ -1192,81 +1773,130 @@
 			"farming": 15
 		},
 		"minecraft:diamond_hoe": {
-			"farming": 10
+			"farming": 40
 		},
 		"minecraft:iron_hoe": {
-			"farming": 5
+			"farming": 10
 		},
 		"minecraft:stone_hoe": {
-			"farming": 2.5
+			"farming": 5
 		},
 		"minecraft:wooden_hoe": {
-			"farming": 1
+			"farming": 2.5
+		},
+		"explorercraft:amethyst_hoe": {
+			"farming": 20
+		},
+		"explorercraft:ruby_hoe": {
+			"farming": 30
+		},
+		"explorercraft:jade_hoe": {
+			"farming": 50
+		},
+		"midnight:shadowroot_hoe": {
+			"farming": 10
+		},
+		"midnight:nightstone_hoe": {
+			"farming": 15
+		},
+		"midnight:ebonite_hoe": {
+			"farming": 20
+		},
+		"midnight:nagrilite_hoe": {
+			"farming": 25
+		},
+		"midnight:tenebrum_hoe": {
+			"farming": 60
 		}
+
 	},
 	"worn_item_xp_boost": {
+		"minecraft:diamond_helmet": {
+			"combat": 7.5,
+			"endurance": 7.5
+		},
+		"minecraft:diamond_chestplate": {
+			"combat": 7.5,
+			"endurance": 7.5
+		},
+		"minecraft:diamond_leggings": {
+			"combat": 7.5,
+			"endurance": 7.5
+		},
+		"minecraft:diamond_boots": {
+			"combat": 7.5,
+			"endurance": 7.5
+		},
 		"minecraft:golden_helmet": {
-			"mining": 5,
-			"endurance": 5
+			"mining": 2.5,
+			"farming": 2.5,
+			"woodcutting": 2.5
 		},
 		"minecraft:golden_chestplate": {
-			"mining": 5,
-			"endurance": 5
+			"mining": 2.5,
+			"farming": 2.5,
+			"woodcutting": 2.5
 		},
 		"minecraft:golden_leggings": {
-			"mining": 5,
-			"endurance": 5
+			"mining": 2.5,
+			"farming": 2.5,
+			"woodcutting": 2.5
 		},
 		"minecraft:golden_boots": {
-			"mining": 5,
-			"endurance": 5
+			"mining": 2.5,
+			"farming": 2.5,
+			"woodcutting": 2.5
 		},
 		"minecraft:chainmail_helmet": {
-			"combat": 5
+			"combat": 2.5
 		},
 		"minecraft:chainmail_chestplate": {
-			"combat": 5
+			"combat": 2.5
 		},
 		"minecraft:chainmail_leggings": {
-			"combat": 5
+			"combat": 2.5
 		},
 		"minecraft:chainmail_boots": {
-			"combat": 5
+			"combat": 2.5
 		},
 		"minecraft:iron_helmet": {
-			"smithing": 2.5
+			"combat": 2.5,
+			"endurance": 2.5
 		},
 		"minecraft:iron_chestplate": {
-			"smithing": 2.5
+			"combat": 2.5,
+			"endurance": 2.5
 		},
 		"minecraft:iron_leggings": {
-			"smithing": 2.5
+			"combat": 2.5,
+			"endurance": 2.5
 		},
 		"minecraft:iron_boots": {
-			"smithing": 2.5
+			"combat": 2.5,
+			"endurance": 2.5
 		},
 		"minecraft:leather_helmet": {
-			"endurance": 5
+			"endurance": 2.5
 		},
 		"minecraft:leather_chestplate": {
-			"endurance": 5
+			"endurance": 2.5
 		},
 		"minecraft:leather_leggings": {
-			"endurance": 5
+			"endurance": 2.5
 		},
 		"minecraft:leather_boots": {
-			"endurance": 5
+			"endurance": 2.5
 		},
 		"minecraft:turtle_helmet": {
 			"swimming": 15,
-			"fishing": 7.5
+			"fishing": 10
 		},
 		"minecraft:dragon_head": {
 			"flying": 50,
 			"slayer": 25
 		},
 		"minecraft:carved_pumpkin": {
-			"slayer": 5
+			"slayer": 10
 		},
 		"minecraft:heart_of_the_sea": {
 			"swimming": 25,
@@ -1279,7 +1909,117 @@
 			"archery": 10,
 			"magic": 10,
 			"flying": 20
+		},
+		"explorercraft:amethyst_helmet": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"explorercraft:amethyst_chestplate": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"explorercraft:amethyst_leggings": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"explorercraft:amethyst_boots": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"explorercraft:ruby_helmet": {
+			"mining": 5,
+			"farming": 5,
+			"woodcutting": 5
+		},
+		"explorercraft:ruby_chestplate": {
+			"mining": 5,
+			"farming": 5,
+			"woodcutting": 5
+		},
+		"explorercraft:ruby_leggings": {
+			"mining": 5,
+			"farming": 5,
+			"woodcutting": 5
+		},
+		"explorercraft:ruby_boots": {
+			"mining": 5,
+			"farming": 5,
+			"woodcutting": 5
+		},
+		"explorercraft:jade_helmet": {
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"explorercraft:jade_chestplate": {
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"explorercraft:jade_leggings": {
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"explorercraft:jade_boots": {
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"explorercraft:welsh_shield": {
+			"combat": 20
+		},
+		"explorercraft:wizard_hat": {
+			"magic": 15
+		},
+		"midnight:rockshroom_shield": {
+			"combat": 10
+		},
+		"midnight:rockshroom_helmet": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"midnight:rockshroom_chestplate": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"midnight:rockshroom_leggings": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"midnight:rockshroom_boots": {
+			"combat": 5,
+			"endurance": 5
+		},
+		"midnight:tenebrum_helmet": {
+			"combat": 7.5,
+			"endurance": 7.5,
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"midnight:tenebrum_chestplate": {
+			"combat": 7.5,
+			"endurance": 7.5,
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"midnight:tenebrum_leggings": {
+			"combat": 7.5,
+			"endurance": 7.5,
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
+		},
+		"midnight:tenebrum_boots": {
+			"combat": 7.5,
+			"endurance": 7.5,
+			"mining": 7.5,
+			"farming": 7.5,
+			"woodcutting": 7.5
 		}
+		
 	},
 	"xp_value": {
 		"minecraft:nether_quartz_ore": {
@@ -1411,11 +2151,20 @@
 		"minecraft:cut_sandstone": {
 			"mining": 1.2
 		},
+		"minecraft:red_sandstone": {
+			"mining": 1.2
+		},
+		"minecraft:chiseled_red_sandstone": {
+			"mining": 1.2
+		},
+		"minecraft:cut_red_sandstone": {
+			"mining": 1.2
+		},
 		"minecraft:red_sand": {
 			"excavation": 1.5
 		},
 		"minecraft:clay": {
-			"excavation": 5
+			"excavation": 4.4
 		},
 		"minecraft:clay_ball": {
 			"excavation": 5
@@ -1424,10 +2173,11 @@
 			"excavation": 1.4
 		},
 		"minecraft:soul_sand": {
-			"excavation": 5
+			"excavation": 4.5,
+			"magic": 2
 		},
 		"minecraft:snow_block": {
-			"excavation": 3.5
+			"excavation": 2.8
 		},
 		"minecraft:oak_sapling": {
 			"woodcutting": 12
@@ -1520,7 +2270,7 @@
 			"woodcutting": 0.3
 		},
 		"minecraft:bookshelf": {
-			"woodcutting": 50
+			"woodcutting": 10
 		},
 		"minecraft:brown_mushroom_block": {
 			"farming": 3
@@ -1529,10 +2279,13 @@
 			"farming": 10
 		},
 		"minecraft:red_mushroom_block": {
-			"farming": 4
+			"farming": 3
 		},
 		"minecraft:red_mushroom": {
-			"farming": 12
+			"farming": 10
+		},
+		"minecraft:mushroom_stem": {
+			"farming": 3
 		},
 		"minecraft:sugar_cane": {
 			"farming": 10
@@ -1659,7 +2412,7 @@
 			"farming": 11.5
 		},
 		"minecraft:vine": {
-			"farming": 3.5
+			"farming": 3.3
 		},
 		"minecraft:grass": {
 			"farming": 2.5
@@ -1893,6 +2646,27 @@
 		"explorercraft:noctilucas": {
 			"farming": 10
 		},
+		"explorercraft:cattail": {
+			"farming": 7.5
+		},
+		"explorercraft:tall_cattail": {
+			"farming": 15
+		},
+		"explorercraft:daffodil": {
+			"farming": 15
+		},
+		"explorercraft:lupine": {
+			"farming": 20
+		},
+		"explorercraft:lotus_flower": {
+			"farming": 40
+		},
+		"explorercraft:short_grass": {
+			"farming": 2.5
+		},
+		"explorercraft:willow": {
+			"farming": 3.3
+		},
 		"oresandmetals:runite_ore": {
 			"mining": 45
 		},
@@ -1930,7 +2704,18 @@
 		"midnight:suavis": {
 			"woodcutting": 5,
 			"magic": 5
+		},
+		"pandoras_creatures:horsetail": {
+			"farming": 10
+		},
+		"pandoras_creatures:dhania": {
+			"farming": 15
+		},
+		"pandoras_creatures:hill_bloom": {
+			"farming": 20
 		}
+		
+
 	},
 	"crafting_xp": {
 		"minecraft:netherite_helmet": {
@@ -2173,6 +2958,15 @@
 		"minecraft:wooden_sword": {
 			"crafting": 6
 		},
+		"minecraft:beehive": {
+			"farming": 150
+		},
+		"minecraft:honey_block": {
+			"farming": 10
+		},
+		"minecraft:honeycomb_block": {
+			"farming": 10
+		},
 		"minecraft:beacon": {
 			"magic": 1000
 		},
@@ -2185,21 +2979,78 @@
 		"minecraft:blaze_powder": {
 			"magic": 10
 		},
+		"minecraft:fire_charge": {
+			"magic": 10
+		},
 		"minecraft:fermented_spider_eye": {
 			"magic": 30
 		},
 		"minecraft:magma_cream": {
 			"magic": 10
 		},
+		"minecraft:golden_carrot": {
+			"magic": 10
+		},
+		"minecraft:glistering_melon_slice": {
+			"magic": 20
+		},
+		"minecraft:golden_apple": {
+			"magic": 200
+		},
+		"minecraft:shulker_box": {
+			"magic": 200
+		},
+		"backpacked:backpack": {
+			"crafting": 50
+		},
+		"bountiful:bountyboard": {
+			"crafting": 50
+		},
+		"bountiful:decree": {
+			"crafting": 50
+		},
 		"craftablechainmail:chainmail_plate": {
 			"crafting": 10,
 			"smithing": 10
+		},
+		"explorercraft:sleeping_bag_leather": {
+			"crafting": 10
+		},
+		"explorercraft:infected_willow_log": {
+			"magic": 2.5
+		},
+		"explorercraft:infected_willow_planks": {
+			"magic": 2.5
+		},
+		"explorercraft:infected_willow_wood": {
+			"magic": 2.5
+		},
+		"explorercraft:slate_welsh": {
+			"magic": 10
 		},
 		"firstaid:plaster": {
 			"crafting": 10
 		},
 		"firstaid:bandage": {
 			"crafting": 20
+		},
+		"midnight:archaic_glass": {
+			"crafting": 10
+		},
+		"midnight:rockshroom_bucket": {
+			"crafting": 30
+		},
+		"midnight:nightshroom_powder": {
+			"magic": 2.5
+		},
+		"midnight:dewshroom_powder": {
+			"magic": 2.5
+		},
+		"midnight:viridshroom_powder": {
+			"magic": 2.5
+		},
+		"midnight:bogshroom_powder": {
+			"magic": 2.5
 		},
 		"midnight:nightshroom_spore_bomb": {
 			"magic": 10
@@ -2214,39 +3065,45 @@
 			"magic": 10
 		},
 		"naturescompass:naturescompass": {
-			"magic": 100
+			"magic": 50
 		},
 		"pandoras_creatures:end_troll_box": {
-			"magic": 1000
+			"magic": 500
 		},
 		"pandoras_creatures:arachnon_hammer": {
 			"magic": 100,
 			"crafting": 180,
 			"smithing": 40
 		},
+		"pandoras_creatures:herb_bundle": {
+			"farming": 15
+		},
+		"pandoras_creatures:plant_hat": {
+			"crafting": 50
+		},
 		"midnight:dark_pearl_ore": {
 			"magic": 5
 		},
 		"waystones:warp_stone": {
-			"magic": 150
-		},
-		"waystones:return_scroll": {
-			"magic": 50
-		},
-		"waystones:bound_scroll": {
-			"magic": 75
-		},
-		"waystones:warp_scroll": {
 			"magic": 100
 		},
+		"waystones:return_scroll": {
+			"magic": 15
+		},
+		"waystones:bound_scroll": {
+			"magic": 25
+		},
+		"waystones:warp_scroll": {
+			"magic": 50
+		},
 		"waystones:waystone": {
-			"magic": 300
+			"magic": 200
 		},
 		"waystones:mossy_waystone": {
-			"magic": 300
+			"magic": 200
 		},
 		"waystones:sandy_waystone": {
-			"magic": 300
+			"magic": 200
 		}
 	},
 	"breeding_xp": {
@@ -2277,7 +3134,7 @@
 	},
 	"kill_xp": {
 		"minecraft:silverfish": {
-			"slayer": 1000
+			"slayer": 10
 		},
 		"minecraft:zombie": {
 			"slayer": 15
@@ -2366,8 +3223,17 @@
 		"explorercraft:wizard": {
 			"slayer": 40
 		},
+		"goblintraders:goblin_trader": {
+			"slayer": 5
+		},
+		"goblintraders:vein_goblin_trader": {
+			"slayer": 5
+		},
 		"midnight:deceitful_snapper": {
 			"slayer": 10
+		},
+		"midnight:bulb_angler": {
+			"slayer": 5
 		},
 		"midnight:hunter": {
 			"slayer": 25
@@ -2377,6 +3243,12 @@
 		},
 		"midnight:stinger": {
 			"slayer": 25
+		},
+		"midnight:nightstag": {
+			"slayer": 5
+		},
+		"midnight:skulk": {
+			"slayer": 5
 		},
 		"pandoras_creatures:acidic_archvine": {
 			"slayer": 40
@@ -2392,7 +3264,14 @@
 		},
 		"pandoras_creatures:hellhound": {
 			"slayer": 50
+		},
+		"pandoras_creatures:crab": {
+			"farming": 5
+		},
+		"pandoras_creatures:seahorse": {
+			"farming": 5
 		}
+
 	},
 	"mob_rare_drop": {
 		"minecraft:ender_dragon": {
@@ -2546,24 +3425,24 @@
 	},
 	"biome_requirement": {
 		"minecraft:jungle": {
-			"agility": 20,
-			"endurance": 10
+			"agility": 15,
+			"endurance": 15
 		},
 		"minecraft:jungle_hills": {
-			"agility": 20,
-			"endurance": 10
+			"agility": 15,
+			"endurance": 15
 		},
 		"minecraft:bamboo_jungle": {
-			"agility": 20,
-			"endurance": 10
+			"agility": 15,
+			"endurance": 15
 		},
 		"minecraft:bamboo_jungle_hills": {
-			"agility": 20,
-			"endurance": 10
+			"agility": 15,
+			"endurance": 15
 		},
 		"minecraft:jungle_edge": {
-			"agility": 20,
-			"endurance": 10
+			"agility": 15,
+			"endurance": 15
 		},
 		"minecraft:ocean": {
 			"swimming": 5
@@ -2582,28 +3461,29 @@
 		"minecraft:deep_frozen_ocean": {
 			"swimming": 35,
 			"endurance": 25
+		},
+		"explorercraft:fungal_forest": {
+			"endurance": 30
 		}
+
+
+
 	},
 	"biome_effect": {
 		"minecraft:jungle": {
-			"minecraft:slowness": 0,
-			"minecraft:weakness": 0
+			"minecraft:slowness": 0
 		},
 		"minecraft:jungle_hills": {
-			"minecraft:slowness": 0,
-			"minecraft:weakness": 0
+			"minecraft:slowness": 0
 		},
 		"minecraft:bamboo_jungle": {
-			"minecraft:slowness": 0,
-			"minecraft:weakness": 0
+			"minecraft:slowness": 0
 		},
 		"minecraft:bamboo_jungle_hills": {
-			"minecraft:slowness": 0,
-			"minecraft:weakness": 0
+			"minecraft:slowness": 0
 		},
 		"minecraft:jungle_edge": {
-			"minecraft:slowness": 0,
-			"minecraft:weakness": 0
+			"minecraft:slowness": 0
 		},
 		"minecraft:ocean": {
 			"minecraft:slowness": 0
@@ -2622,7 +3502,11 @@
 		"minecraft:deep_frozen_ocean": {
 			"minecraft:slowness": 3,
 			"minecraft:weakness": 2
+		},
+		"explorercraft:fungal_forest": {
+			"minecraft:poison": 0
 		}
+
 	},
 	"ore": {
 		"minecraft:nether_quartz_ore": {
@@ -2689,6 +3573,24 @@
 		},
 		"minecraft:acacia_wood": {
 			"extraChance": 1.25
+		},
+		"explorercraft:ash_log": {
+			"extraChance": 3
+		},
+		"explorercraft:ash_wood": {
+			"extraChance": 3
+		},
+		"explorercraft:willow_log": {
+			"extraChance": 3
+		},
+		"explorercraft:willow_wood": {
+			"extraChance": 3
+		},
+		"midnight:shadowroot_log": {
+			"extraChance": 3
+		},
+		"midnight:shadowroot_wood": {
+			"extraChance": 3
 		}
 	},
 	"plant": {
