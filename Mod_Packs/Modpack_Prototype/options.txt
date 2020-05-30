@@ -92,6 +92,12 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.midnight.config:key.keyboard.backslash:CONTROL
+key_key.pmmo.showGui:key.keyboard.tab
+key_key.pmmo.toggleTooltip:key.keyboard.f6
+key_key.pmmo.crawl:key.keyboard.c
+key_key.pmmo.vein:key.keyboard.grave.accent
+key_key.pmmo.openMenu:key.keyboard.p
+key_keybinds.show_wounds:key.keyboard.h
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown
