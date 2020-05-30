@@ -3,30 +3,82 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# Determines if the day/night cycle active in the Bumblezone dimension.
-	#  The cycle will be visible by the change in color of the fog. 
-	# If kept on, the day/night cycle will match the Overworld's 
-	# cycle even when players sleep to skip night in the Overworld.
+	# If a resource location of a block is specified here,
+	#  then teleporting to Bumblezone will need that block under
+	# the Bee Nest/Beehive you threw the Enderpearl at.
 	# 
-	# If this setting is set to false, the cycle 
-	# will be stuck at "noon" for the dimension.
+	# Example: minecraft:emerald_block will require you to place an
+	# Emerald Block under the Bee Nest/Beehive and then throw an
+	# Enderpearl at it to teleport to Bumblezone dimension.
+	# 
+	# By default, no resource location is specified so any
+	# block can be under the Bee Nest/Beehive to teleport to dimension.
 	#
-	dayNightCycle = true
+	requiredBlockUnderHive = ""
 	# 
 	#-----------------------------------------------------
 	#
-	# How bright the fog is in the Bumblezone dimension. 
-	# This will always affect the fog whether you have the 
-	# day/night cycle on or off.
+	# Will a Beenest generate if no Beenest is  
+	# found when leaving The Bumblezone dimension.
 	# 
-	# The brightness is represented as a percentage so if the 
-	# cycle is off, 0 will be pitch black, 50 will be half as 
-	# bright, 100 will be normal orange brightness, and 
-	# 100000 will be white. When the cycle is on, 0 will be 
-	# but will not be completely black during daytime.
+	# ONLY FOR TELEPORTATION MODE 1.
 	#
-	#Range: 0.0 ~ 100000.0
-	fogBrightnessPercentage = 100.0
+	generateBeenest = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Determines how the coordinates gets translated when entering 
+	# and leaving the Bumblezone. The default ratio is 10 which means
+	# for every block you traverse in the dimension, it is equal to
+	# traveling 10 blocks in the Overworld. For comparison, the Nether
+	# has a 8 to 1 ratio with the Overworld. 
+	# 
+	# The scaling of coordinates will take into account other dimension's
+	# coordinate ratios so it'll work for any dimension correctly.
+	# 
+	# Note: Changing this in an already made world will change where Bee Nests will
+	# take you in the dimension and exiting will place you in a different spot too.
+	# 
+	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	#
+	#Range: 1 ~ 1000
+	movementFactor = 10
+	# 
+	#-----------------------------------------------------
+	#
+	# Should exiting The Bumblezone always try and place you 
+	# above sealevel in the target dimension? (Will only look 
+	# for beehives above sealevel as well when placing you) 
+	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	#
+	seaLevelOrHigherExitTeleporting = true
+	# 
+	#-----------------------------------------------------
+	#
+	# If requiredBlockUnderHive has a block specified and this config
+	#  is set to true, then player will get a warning if they throw 
+	# an Enderpearl at a Bee Nest/Beehive but the block under it is 
+	# not the correct required block. It will also tell the player what 
+	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
+	#
+	warnPlayersOfWrongBlockUnderHive = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Makes leaving The Bumblezone dimension always places you back
+	#  at the Overworld regardless of which dimension you originally 
+	# came from. Use this option if this dimension becomes locked in  
+	# with another dimension so you are stuck teleporting between the 
+	# two and cannot get back to the Overworld.
+	#
+	forceExitToOverworld = false
+	# 
+	#-----------------------------------------------------
+	#
+	# Should teleporting to and from The Bumblezone work 
+	# with modded Bee Nests and modded Beehives as well. 
+	#
+	allowTeleportationWithModdedBeehives = true
 	# 
 	#-----------------------------------------------------
 	#
@@ -56,82 +108,30 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# Determines how the coordinates gets translated when entering 
-	# and leaving the Bumblezone. The default ratio is 10 which means
-	# for every block you traverse in the dimension, it is equal to
-	# traveling 10 blocks in the Overworld. For comparison, the Nether
-	# has a 8 to 1 ratio with the Overworld. 
+	# Determines if the day/night cycle active in the Bumblezone dimension.
+	#  The cycle will be visible by the change in color of the fog. 
+	# If kept on, the day/night cycle will match the Overworld's 
+	# cycle even when players sleep to skip night in the Overworld.
 	# 
-	# The scaling of coordinates will take into account other dimension's
-	# coordinate ratios so it'll work for any dimension correctly.
-	# 
-	# Note: Changing this in an already made world will change where Bee Nests will
-	# take you in the dimension and exiting will place you in a different spot too.
-	# 
-	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	# If this setting is set to false, the cycle 
+	# will be stuck at "noon" for the dimension.
 	#
-	#Range: 1 ~ 1000
-	movementFactor = 10
+	dayNightCycle = true
 	# 
 	#-----------------------------------------------------
 	#
-	# Will a Beenest generate if no Beenest is  
-	# found when leaving The Bumblezone dimension.
+	# How bright the fog is in the Bumblezone dimension. 
+	# This will always affect the fog whether you have the 
+	# day/night cycle on or off.
 	# 
-	# ONLY FOR TELEPORTATION MODE 1.
+	# The brightness is represented as a percentage so if the 
+	# cycle is off, 0 will be pitch black, 50 will be half as 
+	# bright, 100 will be normal orange brightness, and 
+	# 100000 will be white. When the cycle is on, 0 will be 
+	# but will not be completely black during daytime.
 	#
-	generateBeenest = true
-	# 
-	#-----------------------------------------------------
-	#
-	# Makes leaving The Bumblezone dimension always places you back
-	#  at the Overworld regardless of which dimension you originally 
-	# came from. Use this option if this dimension becomes locked in  
-	# with another dimension so you are stuck teleporting between the 
-	# two and cannot get back to the Overworld.
-	#
-	forceExitToOverworld = false
-	# 
-	#-----------------------------------------------------
-	#
-	# If a resource location of a block is specified here,
-	#  then teleporting to Bumblezone will need that block under
-	# the Bee Nest/Beehive you threw the Enderpearl at.
-	# 
-	# Example: minecraft:emerald_block will require you to place an
-	# Emerald Block under the Bee Nest/Beehive and then throw an
-	# Enderpearl at it to teleport to Bumblezone dimension.
-	# 
-	# By default, no resource location is specified so any
-	# block can be under the Bee Nest/Beehive to teleport to dimension.
-	#
-	requiredBlockUnderHive = ""
-	# 
-	#-----------------------------------------------------
-	#
-	# Should exiting The Bumblezone always try and place you 
-	# above sealevel in the target dimension? (Will only look 
-	# for beehives above sealevel as well when placing you) 
-	# ONLY FOR TELEPORTATION MODE 1 AND 3.
-	#
-	seaLevelOrHigherExitTeleporting = true
-	# 
-	#-----------------------------------------------------
-	#
-	# If requiredBlockUnderHive has a block specified and this config
-	#  is set to true, then player will get a warning if they throw 
-	# an Enderpearl at a Bee Nest/Beehive but the block under it is 
-	# not the correct required block. It will also tell the player what 
-	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
-	#
-	warnPlayersOfWrongBlockUnderHive = true
-	# 
-	#-----------------------------------------------------
-	#
-	# Should teleporting to and from The Bumblezone work 
-	# with modded Bee Nests and modded Beehives as well. 
-	#
-	allowTeleportationWithModdedBeehives = true
+	#Range: 0.0 ~ 100000.0
+	fogBrightnessPercentage = 100.0
 
 ["Dungeon Options"]
 	# 
@@ -161,72 +161,7 @@
 
 ["Wrath of the Hive Options"]
 
-	["Wrath of the Hive Options"."Bees Aggression Options"]
-		# 
-		#-----------------------------------------------------
-		#
-		# Determines if Wrath of the Hive can be applied to players outside
-		# the Bumblezone dimension when they pick up Honey blocks, take honey
-		# from Filled Porous Honey blocks, or drink Honey Bottles.
-		#
-		allowWrathOfTheHiveOutsideBumblezone = false
-		# 
-		#-----------------------------------------------------
-		#
-		# Show the orangish particles when you get Wrath of the Hive
-		# after you angered the bees in the Bumblezone dimension.
-		#
-		showWrathOfTheHiveParticles = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Turn off or on the ability to get Wrath of the Hive effect.
-		# 
-		# The effect gets applied when you pick up Honey blocks, take
-		# honey from Filled Porous Honeycomb Blocks, or drink a
-		# Honey Bottle inside the Bumblezone dimension.
-		# Basically, bees become REALLY angry.
-		# 
-		# In addition, the bees can see you through walls and will have 
-		# speed, absorption, and strength effects applied to them.
-		# 
-		# Will also affect the bee's aggression toward bears in the dimension.
-		# Note: Peaceful mode will always override the bee aggressive setting.
-		#
-		aggressiveBees = true
-		# 
-		#-----------------------------------------------------
-		#
-		# How far away the bee can be to become angry and hunt you down if
-		#  you take their honey from the Bumblezone dimension.
-		# 
-		# Will also affect the bee's aggression range toward bears in the dimension.
-		#
-		#Range: 1 ~ 200
-		aggressionTriggerRadius = 64
-		# 
-		#-----------------------------------------------------
-		#
-		# How long bees will keep their effects for (speed, absorption, strength).
-		# Note: This is in ticks. 20 ticks = 1 second.
-		#
-		#Range: > 1
-		howLongWrathOfTheHiveLasts = 350
-
 	["Wrath of the Hive Options"."Bees Effects Options"]
-		# 
-		#-----------------------------------------------------
-		#
-		# How fast bees move along the ground (Not while flying).
-		# You will see this a lot when bees are about to attack
-		# you, they tend to touch the floor and the speed boost
-		# makes them dash forward at you. Set this to higher for
-		# faster dash attacks from bees.
-		# 
-		# NOTE: The actual level of the effect is 1 more than the value set here.
-		#
-		#Range: > 0
-		speedBoostLevel = 1
 		# 
 		#-----------------------------------------------------
 		#
@@ -247,6 +182,19 @@
 		# 
 		#-----------------------------------------------------
 		#
+		# How fast bees move along the ground (Not while flying).
+		# You will see this a lot when bees are about to attack
+		# you, they tend to touch the floor and the speed boost
+		# makes them dash forward at you. Set this to higher for
+		# faster dash attacks from bees.
+		# 
+		# NOTE: The actual level of the effect is 1 more than the value set here.
+		#
+		#Range: > 0
+		speedBoostLevel = 1
+		# 
+		#-----------------------------------------------------
+		#
 		# How strong the bees attacks become. 
 		# (5 or higher will instant kill you without armor).
 		# 
@@ -255,81 +203,59 @@
 		#Range: > 0
 		strengthBoostLevel = 3
 
-["Mod Compatibility Options"]
+	["Wrath of the Hive Options"."Bees Aggression Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# How far away the bee can be to become angry and hunt you down if
+		#  you take their honey from the Bumblezone dimension.
+		# 
+		# Will also affect the bee's aggression range toward bears in the dimension.
+		#
+		#Range: 1 ~ 200
+		aggressionTriggerRadius = 64
+		# 
+		#-----------------------------------------------------
+		#
+		# How long bees will keep their effects for (speed, absorption, strength).
+		# Note: This is in ticks. 20 ticks = 1 second.
+		#
+		#Range: > 1
+		howLongWrathOfTheHiveLasts = 350
+		# 
+		#-----------------------------------------------------
+		#
+		# Show the orangish particles when you get Wrath of the Hive
+		# after you angered the bees in the Bumblezone dimension.
+		#
+		showWrathOfTheHiveParticles = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Determines if Wrath of the Hive can be applied to players outside
+		# the Bumblezone dimension when they pick up Honey blocks, take honey
+		# from Filled Porous Honey blocks, or drink Honey Bottles.
+		#
+		allowWrathOfTheHiveOutsideBumblezone = false
+		# 
+		#-----------------------------------------------------
+		#
+		# Turn off or on the ability to get Wrath of the Hive effect.
+		# 
+		# The effect gets applied when you pick up Honey blocks, take
+		# honey from Filled Porous Honeycomb Blocks, or drink a
+		# Honey Bottle inside the Bumblezone dimension.
+		# Basically, bees become REALLY angry.
+		# 
+		# In addition, the bees can see you through walls and will have 
+		# speed, absorption, and strength effects applied to them.
+		# 
+		# Will also affect the bee's aggression toward bears in the dimension.
+		# Note: Peaceful mode will always override the bee aggressive setting.
+		#
+		aggressiveBees = true
 
-	["Mod Compatibility Options"."Buzzier Bees Options"]
-		# 
-		#-----------------------------------------------------
-		#
-		# Spawn Buzzier Bees's Honey Slime mob instead of Vanilla Slime.
-		#
-		spawnHoneySlimeMob = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Honey Wand to take honey from Filled Porous Honeycomb Block 
-		# and put honey into Porous Honeycomb Block without angering bees.
-		#
-		allowHoneyWandCompat = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Bottled Bee item to turn Empty Honeycomb Brood blocks back 
-		# into Honeycomb Brood Blocks with a larva in it.
-		#
-		allowBottledBeeCompat = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Place Hive Planks blocks at the top and bottom of the dimension 
-		# so it is like the dimension is actually in a Bee Nest block.
-		#
-		hivePlanksWorldgen = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Place Buzzier Bees's Wax Blocks on the surface of land /r/n around sea level and below too.
-		#
-		waxBlocksWorldgen = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Place Buzzier Bees's Crystallized Honey Blocks on the /r/n surface of land around sea level and above.
-		#
-		crystallizedHoneyWorldgen = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Bee Dungeons to have normal unscented candles./r/n
-		allowRegularCandlesBeeDungeon = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Bee Dungeons to have scented candles that gives status effects./r/n
-		allowScentedCandlesBeeDungeon = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Spider Infested Bee Dungeons to have scented candles that gives status effects./r/n
-		allowScentedCandlesSpiderBeeDungeon = true
-		# 
-		#-----------------------------------------------------
-		#
-		# How rare are powerful candles in Bee Dungeons. 
-		# Higher numbers means more rare.
-		# Default rate is 2.
-		#
-		#Range: 0 ~ 10
-		powerfulCandlesRarityBeeDungeon = 2
-		# 
-		#-----------------------------------------------------
-		#
-		# How rare are powerful candles in Spider Infested Bee Dungeons. 
-		# Higher numbers means more rare.
-		# Default rate is 2.
-		#
-		#Range: 0 ~ 10
-		powerfulCandlesRaritySpiderBeeDungeon = 0
+["Mod Compatibility Options"]
 
 	["Mod Compatibility Options"."Beesourceful Options"]
 		# 
@@ -352,11 +278,12 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# How much of Bee Dungeons is made of ore-based honeycombs.
-		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.3D
+		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
+		# in Spider Infested Bee Dungeons. 
+		# Higher numbers means more rare. Default rate is 2.
 		#
-		#Range: 0.0 ~ 1.0
-		oreHoneycombSpawnRateBeeDungeon = 0.3
+		#Range: 1 ~ 1001
+		greatHoneycombRaritySpiderBeeDungeon = 2
 		# 
 		#-----------------------------------------------------
 		#
@@ -369,20 +296,93 @@
 		# 
 		#-----------------------------------------------------
 		#
+		# How much of Bee Dungeons is made of ore-based honeycombs.
+		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.3D
+		#
+		#Range: 0.0 ~ 1.0
+		oreHoneycombSpawnRateBeeDungeon = 0.3
+		# 
+		#-----------------------------------------------------
+		#
 		# How much of Spider Infested Bee Dungeons is made of ore-based honeycombs.
 		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.4D
 		#
 		#Range: 0.0 ~ 1.0
 		oreHoneycombSpawnRateSpiderBeeDungeon = 0.4
+
+	["Mod Compatibility Options"."Buzzier Bees Options"]
 		# 
 		#-----------------------------------------------------
 		#
-		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
-		# in Spider Infested Bee Dungeons. 
-		# Higher numbers means more rare. Default rate is 2.
+		# Allow Bee Dungeons to have normal unscented candles./r/n
+		allowRegularCandlesBeeDungeon = true
+		# 
+		#-----------------------------------------------------
 		#
-		#Range: 1 ~ 1001
-		greatHoneycombRaritySpiderBeeDungeon = 2
+		# Allow Bee Dungeons to have scented candles that gives status effects./r/n
+		allowScentedCandlesBeeDungeon = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Buzzier Bees's Crystallized Honey Blocks on the /r/n surface of land around sea level and above.
+		#
+		crystallizedHoneyWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare are powerful candles in Spider Infested Bee Dungeons. 
+		# Higher numbers means more rare.
+		# Default rate is 2.
+		#
+		#Range: 0 ~ 10
+		powerfulCandlesRaritySpiderBeeDungeon = 0
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Hive Planks blocks at the top and bottom of the dimension 
+		# so it is like the dimension is actually in a Bee Nest block.
+		#
+		hivePlanksWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Spider Infested Bee Dungeons to have scented candles that gives status effects./r/n
+		allowScentedCandlesSpiderBeeDungeon = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Buzzier Bees's Honey Slime mob instead of Vanilla Slime.
+		#
+		spawnHoneySlimeMob = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Buzzier Bees's Wax Blocks on the surface of land /r/n around sea level and below too.
+		#
+		waxBlocksWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare are powerful candles in Bee Dungeons. 
+		# Higher numbers means more rare.
+		# Default rate is 2.
+		#
+		#Range: 0 ~ 10
+		powerfulCandlesRarityBeeDungeon = 2
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honey Wand to take honey from Filled Porous Honeycomb Block 
+		# and put honey into Porous Honeycomb Block without angering bees.
+		#
+		allowHoneyWandCompat = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Bottled Bee item to turn Empty Honeycomb Brood blocks back 
+		# into Honeycomb Brood Blocks with a larva in it.
+		#
+		allowBottledBeeCompat = true
 
 	["Mod Compatibility Options"."Productive Bees Options"]
 		# 
@@ -397,18 +397,18 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow Potion of Bees item to turn Empty Honeycomb Brood blocks 
-		# back into Honeycomb Brood Blocks with a larva in it. (affects Despenser too)
-		#
-		allowPotionOfBeesCompat = true
-		# 
-		#-----------------------------------------------------
-		#
 		# Allow Splash Potion of Bees item to turn Empty Honeycomb Brood 
 		# blocks back into Honeycomb Brood Blocks with a larva in it when 
 		# the potion is thrown and splashed near the block. (affects Despenser too)
 		#
 		allowSplashPotionOfBeesCompat = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Potion of Bees item to turn Empty Honeycomb Brood blocks 
+		# back into Honeycomb Brood Blocks with a larva in it. (affects Despenser too)
+		#
+		allowPotionOfBeesCompat = true
 
 ["General Mechanics Options"]
 	# 
