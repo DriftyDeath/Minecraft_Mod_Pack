@@ -1,251 +1,316 @@
-[29May2020 17:15:16.188] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, DriftyDeath, --version, 1.15.2-forge-31.2.0, --gameDir, C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype, --assetsDir, C:\Users\Sum\AppData\Roaming\.minecraft\assets, --assetIndex, 1.15, --uuid, 01735a4ff12345598c0ff97d76ae7d2c, --accessToken, ????????, --userType, mojang, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 31.2.0, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200515.085601]
-[29May2020 17:15:16.194] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_51 by Oracle Corporation
-[29May2020 17:15:16.214] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
-[29May2020 17:15:16.225] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
-[29May2020 17:15:16.238] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
-[29May2020 17:15:16.252] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[29May2020 17:15:16.258] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
-[29May2020 17:15:16.297] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
-[29May2020 17:15:16.297] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[29May2020 17:15:16.299] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[29May2020 17:15:16.299] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
-[29May2020 17:15:16.303] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
-[29May2020 17:15:16.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
-[29May2020 17:15:16.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.0+69+master.79f13f7
-[29May2020 17:15:16.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
-[29May2020 17:15:16.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
-[29May2020 17:15:16.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
-[29May2020 17:15:16.305] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[29May2020 17:15:16.308] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
-[29May2020 17:15:16.309] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
-[29May2020 17:15:16.309] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
-[29May2020 17:15:16.913] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[29May2020 17:15:16.915] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[29May2020 17:15:16.917] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[29May2020 17:15:16.928] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[29May2020 17:15:16.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[29May2020 17:15:16.929] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[29May2020 17:15:16.930] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype
-[29May2020 17:15:16.931] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype
-[29May2020 17:15:16.932] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making MODSDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods
-[29May2020 17:15:16.932] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created MODSDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods
-[29May2020 17:15:16.932] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods
-[29May2020 17:15:16.933] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making CONFIGDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config
-[29May2020 17:15:16.933] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created CONFIGDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config
-[29May2020 17:15:16.934] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config
-[29May2020 17:15:16.934] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\fml.toml
-[29May2020 17:15:16.934] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[29May2020 17:15:16.990] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\fml.toml is not correct. Correcting
-[29May2020 17:15:17.000] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[29May2020 17:15:17.008] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making default config directory directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\defaultconfigs
-[29May2020 17:15:17.009] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created default config directory directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\defaultconfigs
-[29May2020 17:15:17.009] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[29May2020 17:15:17.009] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlclient as launch service
-[29May2020 17:15:17.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
-[29May2020 17:15:17.988] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\Sum\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
-[29May2020 17:15:17.988] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\Sum\AppData\Roaming\.minecraft\libraries
-[29May2020 17:15:18.000] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar is present
-[29May2020 17:15:18.004] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.15.2-20200515.085601\client-1.15.2-20200515.085601-srg.jar is present
-[29May2020 17:15:18.008] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.15.2\client-1.15.2-extra.jar is present
-[29May2020 17:15:18.010] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar is present
-[29May2020 17:15:18.020] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
-[29May2020 17:15:18.021] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
-[29May2020 17:15:18.023] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/Sum/AppData/Roaming/.minecraft/libraries/net/minecraftforge/forge/1.15.2-31.2.0/forge-1.15.2-31.2.0-universal.jar to languageloader classloader
-[29May2020 17:15:18.119] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
-[29May2020 17:15:18.119] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
-[29May2020 17:15:18.124] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
-[29May2020 17:15:18.130] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[29May2020 17:15:18.131] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
-[29May2020 17:15:18.131] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
-[29May2020 17:15:18.131] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[29May2020 17:15:18.132] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[29May2020 17:15:18.132] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[29May2020 17:15:18.181] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[29May2020 17:15:18.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
-[29May2020 17:15:18.274] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
-[29May2020 17:15:18.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-universal.jar with {forge} mods - versions {31.2.0}
-[29May2020 17:15:18.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar with language javafml
-[29May2020 17:15:18.369] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
-[29May2020 17:15:18.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
-[29May2020 17:15:18.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar
-[29May2020 17:15:18.426] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-client.jar with {minecraft} mods - versions {1.15.2}
-[29May2020 17:15:18.426] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar with language minecraft
-[29May2020 17:15:18.447] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
-[29May2020 17:15:18.448] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
-[29May2020 17:15:19.249] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[29May2020 17:15:19.249] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[29May2020 17:15:19.250] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[29May2020 17:15:19.250] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[29May2020 17:15:19.250] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
-[29May2020 17:15:19.555] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[29May2020 17:15:19.563] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2db2dd9d to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
-[29May2020 17:15:19.565] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@13006998 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
-[29May2020 17:15:19.565] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@37fbe4a8 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
-[29May2020 17:15:19.565] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@352c308 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
-[29May2020 17:15:19.565] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7d373bcf to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
-[29May2020 17:15:19.565] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6d6bc158 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
-[29May2020 17:15:19.566] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[29May2020 17:15:19.593] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.15.2-forge-31.2.0, --gameDir, C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype, --assetsDir, C:\Users\Sum\AppData\Roaming\.minecraft\assets, --uuid, 01735a4ff12345598c0ff97d76ae7d2c, --username, DriftyDeath, --assetIndex, 1.15, --accessToken, ????????, --userType, mojang, --versionType, release]
-[29May2020 17:15:22.465] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: DriftyDeath
-[29May2020 17:15:23.588] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
-[29May2020 17:15:23.769] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
-[29May2020 17:15:23.933] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
-[29May2020 17:15:29.301] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
-[29May2020 17:15:29.343] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
-[29May2020 17:15:29.571] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
-[29May2020 17:15:33.864] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[29May2020 17:15:35.330] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
-[29May2020 17:15:36.176] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
-[29May2020 17:15:36.244] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 4 threads for parallel mod-loading
-[29May2020 17:15:36.253] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.269] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.291] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@70e29e14 - got cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.292] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@70e29e14 & cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.335] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.444] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
-[29May2020 17:15:36.453] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
-[29May2020 17:15:36.454] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@70e29e14
-[29May2020 17:15:36.454] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
-[29May2020 17:15:36.454] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
-[29May2020 17:15:36.454] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[29May2020 17:15:36.459] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
-[29May2020 17:15:36.459] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
-[29May2020 17:15:36.459] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[29May2020 17:15:36.459] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[29May2020 17:15:36.656] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[29May2020 17:15:36.656] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[29May2020 17:15:36.673] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
-[29May2020 17:15:36.673] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
-[29May2020 17:15:36.703] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[29May2020 17:15:36.714] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
-[29May2020 17:15:36.774] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
-[29May2020 17:15:36.996] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
-[29May2020 17:15:37.145] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
-[29May2020 17:15:37.146] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
-[29May2020 17:15:37.240] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.245] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
-[29May2020 17:15:37.245] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
-[29May2020 17:15:37.250] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.250] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
-[29May2020 17:15:37.250] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
-[29May2020 17:15:37.252] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.252] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
-[29May2020 17:15:37.252] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
-[29May2020 17:15:37.253] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
-[29May2020 17:15:37.254] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.254] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
-[29May2020 17:15:37.254] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
-[29May2020 17:15:37.254] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
-[29May2020 17:15:37.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
-[29May2020 17:15:37.255] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
-[29May2020 17:15:37.255] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
-[29May2020 17:15:37.256] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
-[29May2020 17:15:37.257] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
-[29May2020 17:15:37.258] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.258] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
-[29May2020 17:15:37.258] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
-[29May2020 17:15:37.258] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.259] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
-[29May2020 17:15:37.259] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
-[29May2020 17:15:37.259] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.259] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
-[29May2020 17:15:37.259] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
-[29May2020 17:15:37.260] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.260] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
-[29May2020 17:15:37.260] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
-[29May2020 17:15:37.260] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.261] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
-[29May2020 17:15:37.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
-[29May2020 17:15:37.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
-[29May2020 17:15:37.264] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
-[29May2020 17:15:37.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
-[29May2020 17:15:37.264] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.264] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
-[29May2020 17:15:37.265] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
-[29May2020 17:15:37.265] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.265] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
-[29May2020 17:15:37.265] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
-[29May2020 17:15:37.266] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.266] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
-[29May2020 17:15:37.266] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
-[29May2020 17:15:37.266] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.266] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
-[29May2020 17:15:37.267] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
-[29May2020 17:15:37.267] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.267] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
-[29May2020 17:15:37.614] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
-[29May2020 17:15:37.615] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.661] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
-[29May2020 17:15:37.662] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
-[29May2020 17:15:37.662] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.662] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
-[29May2020 17:15:37.662] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
-[29May2020 17:15:37.663] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.663] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
-[29May2020 17:15:37.663] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
-[29May2020 17:15:37.664] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
-[29May2020 17:15:37.665] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[29May2020 17:15:37.665] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
-[29May2020 17:15:37.665] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
-[29May2020 17:15:37.939] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
-[29May2020 17:15:37.965] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
-[29May2020 17:15:37.972] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
-[29May2020 17:15:40.039] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[29May2020 17:15:40.132] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[29May2020 17:15:40.410] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[29May2020 17:15:40.412] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml
-[29May2020 17:15:40.414] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml
-[29May2020 17:15:40.419] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml for changes
-[29May2020 17:15:40.420] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml is not correct. Correcting
-[29May2020 17:15:40.424] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
-[29May2020 17:15:40.424] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
-[29May2020 17:15:40.424] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
-[29May2020 17:15:40.425] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
-[29May2020 17:15:40.425] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
-[29May2020 17:15:40.425] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
-[29May2020 17:15:40.426] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to false
-[29May2020 17:15:40.431] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
-[29May2020 17:15:40.432] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
-[29May2020 17:15:40.437] [Server-Worker-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
-[29May2020 17:15:40.442] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[29May2020 17:15:40.442] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
-[29May2020 17:15:40.443] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
-[29May2020 17:15:40.462] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
-[29May2020 17:15:40.463] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[29May2020 17:15:40.652] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
-[29May2020 17:15:40.657] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
-[29May2020 17:15:40.658] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
-[29May2020 17:15:40.658] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
-[29May2020 17:15:40.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[29May2020 17:15:42.006] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+[29May2020 17:21:15.380] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, DriftyDeath, --version, 1.15.2-forge-31.2.0, --gameDir, C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype, --assetsDir, C:\Users\Sum\AppData\Roaming\.minecraft\assets, --assetIndex, 1.15, --uuid, 01735a4ff12345598c0ff97d76ae7d2c, --accessToken, ????????, --userType, mojang, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 31.2.0, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200515.085601]
+[29May2020 17:21:15.380] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_51 by Oracle Corporation
+[29May2020 17:21:15.395] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[29May2020 17:21:15.411] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[29May2020 17:21:15.427] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[29May2020 17:21:15.442] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[29May2020 17:21:15.442] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[29May2020 17:21:15.489] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[29May2020 17:21:15.489] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[29May2020 17:21:15.489] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.0+69+master.79f13f7
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
+[29May2020 17:21:15.489] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[29May2020 17:21:16.036] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29May2020 17:21:16.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[29May2020 17:21:16.036] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[29May2020 17:21:16.052] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[29May2020 17:21:16.052] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\fml.toml
+[29May2020 17:21:16.052] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[29May2020 17:21:16.098] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\defaultconfigs
+[29May2020 17:21:16.098] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[29May2020 17:21:16.098] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlclient as launch service
+[29May2020 17:21:17.114] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
+[29May2020 17:21:17.114] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\Sum\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
+[29May2020 17:21:17.114] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\Sum\AppData\Roaming\.minecraft\libraries
+[29May2020 17:21:17.114] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar is present
+[29May2020 17:21:17.114] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.15.2-20200515.085601\client-1.15.2-20200515.085601-srg.jar is present
+[29May2020 17:21:17.130] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.15.2\client-1.15.2-extra.jar is present
+[29May2020 17:21:17.130] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar is present
+[29May2020 17:21:17.145] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[29May2020 17:21:17.145] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[29May2020 17:21:17.145] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/Sum/AppData/Roaming/.minecraft/libraries/net/minecraftforge/forge/1.15.2-31.2.0/forge-1.15.2-31.2.0-universal.jar to languageloader classloader
+[29May2020 17:21:17.237] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[29May2020 17:21:17.237] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[29May2020 17:21:17.237] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[29May2020 17:21:17.237] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[29May2020 17:21:17.237] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[29May2020 17:21:17.237] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[29May2020 17:21:17.237] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[29May2020 17:21:17.253] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[29May2020 17:21:17.253] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[29May2020 17:21:17.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[29May2020 17:21:17.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[29May2020 17:21:17.394] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods\jei-1.15.2-6.0.0.4.jar
+[29May2020 17:21:17.440] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.15.2-6.0.0.4.jar with {jei} mods - versions {6.0.0.4}
+[29May2020 17:21:17.440] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods\jei-1.15.2-6.0.0.4.jar with language javafml
+[29May2020 17:21:17.456] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[29May2020 17:21:17.456] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-universal.jar with {forge} mods - versions {31.2.0}
+[29May2020 17:21:17.456] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar with language javafml
+[29May2020 17:21:17.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[29May2020 17:21:17.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[29May2020 17:21:17.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar
+[29May2020 17:21:17.565] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0-client.jar with {minecraft} mods - versions {1.15.2}
+[29May2020 17:21:17.565] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-client.jar with language minecraft
+[29May2020 17:21:17.581] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mandatory requirements
+[29May2020 17:21:17.581] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[29May2020 17:21:18.190] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[29May2020 17:21:18.190] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[29May2020 17:21:18.190] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[29May2020 17:21:18.190] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[29May2020 17:21:18.190] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[29May2020 17:21:18.440] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@327120c8 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2970a5bc to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@50305a to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@72efb5c1 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6d511b5f to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@41200e0c to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[29May2020 17:21:18.456] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[29May2020 17:21:18.503] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.15.2-forge-31.2.0, --gameDir, C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype, --assetsDir, C:\Users\Sum\AppData\Roaming\.minecraft\assets, --uuid, 01735a4ff12345598c0ff97d76ae7d2c, --username, DriftyDeath, --assetIndex, 1.15, --accessToken, ????????, --userType, mojang, --versionType, release]
+[29May2020 17:21:21.539] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: DriftyDeath
+[29May2020 17:21:22.542] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[29May2020 17:21:22.636] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[29May2020 17:21:22.746] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[29May2020 17:21:27.212] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[29May2020 17:21:27.227] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[29May2020 17:21:27.774] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[29May2020 17:21:31.971] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[29May2020 17:21:33.279] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
+[29May2020 17:21:33.934] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[29May2020 17:21:33.971] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 4 threads for parallel mod-loading
+[29May2020 17:21:33.976] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:33.992] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:33.997] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@66238be2 - got cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:33.997] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@66238be2 & cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.020] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.021] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.021] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@66238be2 - got cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.021] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.JustEnoughItems with classLoader cpw.mods.modlauncher.TransformingClassLoader@66238be2 & cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.023] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass mezz.jei.JustEnoughItems with cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.045] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[29May2020 17:21:34.054] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[29May2020 17:21:34.055] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@66238be2
+[29May2020 17:21:34.055] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
+[29May2020 17:21:34.055] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[29May2020 17:21:34.055] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[29May2020 17:21:34.060] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[29May2020 17:21:34.060] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
+[29May2020 17:21:34.061] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[29May2020 17:21:34.061] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[29May2020 17:21:34.060] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance jei of type mezz.jei.JustEnoughItems
+[29May2020 17:21:34.366] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance jei of type mezz.jei.JustEnoughItems
+[29May2020 17:21:34.366] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for jei
+[29May2020 17:21:34.380] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[29May2020 17:21:34.391] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for jei
+[29May2020 17:21:34.447] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[29May2020 17:21:34.479] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[29May2020 17:21:34.486] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[29May2020 17:21:34.486] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[29May2020 17:21:34.487] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[29May2020 17:21:34.493] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[29May2020 17:21:34.741] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[29May2020 17:21:34.793] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[29May2020 17:21:34.807] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[29May2020 17:21:34.807] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[29May2020 17:21:34.807] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.NewRegistry
+[29May2020 17:21:34.807] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.NewRegistry
+[29May2020 17:21:34.939] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.955] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[29May2020 17:21:34.956] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[29May2020 17:21:34.956] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block>
+[29May2020 17:21:34.956] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block>
+[29May2020 17:21:34.962] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.963] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[29May2020 17:21:34.963] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[29May2020 17:21:34.963] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:item>
+[29May2020 17:21:34.963] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:item>
+[29May2020 17:21:34.965] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.965] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[29May2020 17:21:34.965] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[29May2020 17:21:34.966] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[29May2020 17:21:34.967] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.967] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[29May2020 17:21:34.967] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[29May2020 17:21:34.967] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:activities>
+[29May2020 17:21:34.967] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:activities>
+[29May2020 17:21:34.968] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.968] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[29May2020 17:21:34.968] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[29May2020 17:21:34.968] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome>
+[29May2020 17:21:34.968] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome>
+[29May2020 17:21:34.969] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.969] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[29May2020 17:21:34.969] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[29May2020 17:21:34.969] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[29May2020 17:21:34.970] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[29May2020 17:21:34.970] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.971] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[29May2020 17:21:34.971] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[29May2020 17:21:34.971] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[29May2020 17:21:34.971] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[29May2020 17:21:34.972] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.972] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[29May2020 17:21:34.972] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[29May2020 17:21:34.972] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:carver>
+[29May2020 17:21:34.972] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:carver>
+[29May2020 17:21:34.973] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.973] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[29May2020 17:21:34.973] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[29May2020 17:21:34.973] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[29May2020 17:21:34.973] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.974] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[29May2020 17:21:34.975] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.976] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:feature>
+[29May2020 17:21:34.977] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:feature>
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.978] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[29May2020 17:21:34.979] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:menu>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:menu>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[29May2020 17:21:34.980] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:motive>
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:motive>
+[29May2020 17:21:34.981] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[29May2020 17:21:34.982] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:potion>
+[29May2020 17:21:34.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:potion>
+[29May2020 17:21:34.984] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:34.984] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[29May2020 17:21:35.330] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[29May2020 17:21:35.331] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[29May2020 17:21:35.331] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[29May2020 17:21:35.332] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.355] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[29May2020 17:21:35.355] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[29May2020 17:21:35.356] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[29May2020 17:21:35.356] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[29May2020 17:21:35.356] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.356] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[29May2020 17:21:35.357] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[29May2020 17:21:35.359] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.359] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[29May2020 17:21:35.359] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[29May2020 17:21:35.359] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[29May2020 17:21:35.359] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[29May2020 17:21:35.360] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[29May2020 17:21:35.536] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[29May2020 17:21:35.536] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods\jei-1.15.2-6.0.0.4.jar
+[29May2020 17:21:35.602] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[29May2020 17:21:35.602] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods\jei-1.15.2-6.0.0.4.jar
+[29May2020 17:21:35.612] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
+[29May2020 17:21:38.278] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[29May2020 17:21:38.342] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[29May2020 17:21:38.396] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[29May2020 17:21:38.398] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml
+[29May2020 17:21:38.423] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml
+[29May2020 17:21:38.440] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\config\forge-client.toml for changes
+[29May2020 17:21:38.443] [Server-Worker-3/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[29May2020 17:21:38.445] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[29May2020 17:21:38.445] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[29May2020 17:21:38.446] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLCommonSetupEvent
+[29May2020 17:21:38.446] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[29May2020 17:21:38.843] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[29May2020 17:21:38.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[29May2020 17:21:38.854] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLCommonSetupEvent
+[29May2020 17:21:38.857] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[29May2020 17:21:38.858] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
+[29May2020 17:21:38.858] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
+[29May2020 17:21:38.858] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLClientSetupEvent
+[29May2020 17:21:38.858] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLClientSetupEvent
+[29May2020 17:21:39.729] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
@@ -297,27 +362,271 @@
     "latest-1.7.10": "10.13.2.1343"
   }
 }
-[29May2020 17:15:42.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[29May2020 17:15:57.932] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
-[29May2020 17:15:57.940] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
-[29May2020 17:15:57.940] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
-[29May2020 17:15:57.941] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
-[29May2020 17:15:57.949] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
-[29May2020 17:15:57.949] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
-[29May2020 17:15:57.950] [Server-Worker-3/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
-[29May2020 17:15:57.957] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
-[29May2020 17:15:57.958] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
-[29May2020 17:15:58.001] [Server-Worker-3/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
-[29May2020 17:15:58.662] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[29May2020 17:15:58.663] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[29May2020 17:15:59.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[29May2020 17:15:59.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[29May2020 17:15:59.081] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[29May2020 17:15:59.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[29May2020 17:15:59.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[29May2020 17:15:59.085] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[29May2020 17:15:59.087] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[29May2020 17:15:59.788] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[29May2020 17:15:59.791] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[29May2020 17:15:59.792] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[29May2020 17:16:18.336] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[29May2020 17:21:39.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[29May2020 17:21:49.802] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[29May2020 17:21:49.811] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[29May2020 17:21:49.811] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModEnqueueEvent
+[29May2020 17:21:49.811] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[29May2020 17:21:49.812] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModEnqueueEvent
+[29May2020 17:21:49.812] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[29May2020 17:21:49.820] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[29May2020 17:21:49.820] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModProcessEvent
+[29May2020 17:21:49.820] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[29May2020 17:21:49.822] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModProcessEvent
+[29May2020 17:21:49.823] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[29May2020 17:21:49.824] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLLoadCompleteEvent
+[29May2020 17:21:49.824] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[29May2020 17:21:49.824] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[29May2020 17:21:54.662] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLLoadCompleteEvent
+[29May2020 17:21:54.724] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[29May2020 17:21:55.448] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[29May2020 17:21:55.449] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[29May2020 17:21:55.761] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[29May2020 17:21:55.762] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[29May2020 17:21:55.830] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[29May2020 17:21:55.830] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29May2020 17:21:55.832] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29May2020 17:21:55.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29May2020 17:21:55.835] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29May2020 17:21:55.836] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29May2020 17:21:56.590] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29May2020 17:21:56.593] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29May2020 17:21:56.593] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29May2020 17:30:35.588] [Render thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[29May2020 17:30:35.974] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29May2020 17:30:35.976] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 17:30:35.979] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 17:30:35.980] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29May2020 17:30:35.982] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29May2020 17:30:36.050] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[29May2020 17:30:36.051] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[29May2020 17:30:36.147] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig
+[29May2020 17:30:36.152] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig
+[29May2020 17:30:36.152] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[29May2020 17:30:36.152] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig\forge-server.toml
+[29May2020 17:30:36.160] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig\forge-server.toml
+[29May2020 17:30:36.161] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig\forge-server.toml for changes
+[29May2020 17:30:36.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[29May2020 17:30:36.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[29May2020 17:30:36.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[29May2020 17:30:36.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[29May2020 17:30:36.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[29May2020 17:30:36.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[29May2020 17:30:36.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[29May2020 17:30:36.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[29May2020 17:30:36.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[29May2020 17:30:36.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[29May2020 17:30:36.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[29May2020 17:30:36.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[29May2020 17:30:36.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[29May2020 17:30:36.176] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[29May2020 17:30:36.186] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[29May2020 17:30:36.186] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[29May2020 17:30:36.263] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Reading Dimension Entries.
+[29May2020 17:30:36.264] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:dimension_type: Clearing registry
+[29May2020 17:30:36.264] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 1 Name: minecraft:overworld Value: DimensionType{null}
+[29May2020 17:30:36.264] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 2 Name: minecraft:the_end Value: DimensionType{null}
+[29May2020 17:30:36.267] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 0 Name: minecraft:the_nether Value: DimensionType{null}
+[29May2020 17:30:36.331] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[29May2020 17:30:36.517] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Sum\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.0\forge-1.15.2-31.2.0-universal.jar
+[29May2020 17:30:36.517] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\mods\jei-1.15.2-6.0.0.4.jar
+[29May2020 17:30:36.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[29May2020 17:30:36.520] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0-universal.jar, jei-1.15.2-6.0.0.4.jar
+[29May2020 17:30:37.378] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[29May2020 17:30:37.941] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[29May2020 17:30:45.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29May2020 17:30:45.859] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 17:30:46.316] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 17:30:46.787] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 17:30:47.323] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 17:30:47.738] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29May2020 17:30:48.248] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29May2020 17:30:48.818] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29May2020 17:30:49.267] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29May2020 17:30:49.857] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[29May2020 17:30:50.270] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[29May2020 17:30:50.737] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29May2020 17:30:51.271] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[29May2020 17:30:51.758] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[29May2020 17:30:52.299] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[29May2020 17:30:52.753] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[29May2020 17:30:53.286] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29May2020 17:30:53.754] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[29May2020 17:30:54.255] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[29May2020 17:30:54.771] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[29May2020 17:30:55.256] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[29May2020 17:30:55.770] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[29May2020 17:30:56.255] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[29May2020 17:30:56.754] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[29May2020 17:30:57.287] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[29May2020 17:30:57.759] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[29May2020 17:30:58.254] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[29May2020 17:30:58.738] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[29May2020 17:30:59.253] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[29May2020 17:30:59.821] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[29May2020 17:31:00.254] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[29May2020 17:31:00.753] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[29May2020 17:31:02.489] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[29May2020 17:31:02.489] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[29May2020 17:31:02.489] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[29May2020 17:31:03.088] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
+[29May2020 17:31:03.287] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 76%
+[29May2020 17:31:03.753] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 80%
+[29May2020 17:31:04.255] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[29May2020 17:31:05.894] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[29May2020 17:31:05.894] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[29May2020 17:31:05.895] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[29May2020 17:31:06.304] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[29May2020 17:31:06.338] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 20601 ms
+[29May2020 17:31:06.624] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
+[29May2020 17:31:06.624] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
+[29May2020 17:31:06.630] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
+[29May2020 17:31:06.634] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29May2020 17:31:06.635] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
+[29May2020 17:31:06.635] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29May2020 17:31:06.636] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[29May2020 17:31:08.537] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[29May2020 17:31:08.718] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[29May2020 17:31:08.847] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[29May2020 17:31:08.887] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[29May2020 17:31:08.892] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, jei]
+[29May2020 17:31:08.893] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
+[29May2020 17:31:08.893] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
+[29May2020 17:31:08.911] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from server : ACCEPTED
+[29May2020 17:31:08.911] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
+[29May2020 17:31:08.911] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
+[29May2020 17:31:08.911] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
+[29May2020 17:31:08.911] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[29May2020 17:31:08.913] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
+[29May2020 17:31:08.914] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[29May2020 17:31:08.915] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, jei]
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[29May2020 17:31:08.916] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[29May2020 17:31:08.917] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[29May2020 17:31:08.917] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[29May2020 17:31:08.942] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
+[29May2020 17:31:08.942] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[29May2020 17:31:08.943] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[29May2020 17:31:08.943] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[29May2020 17:31:08.944] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[29May2020 17:31:08.944] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[29May2020 17:31:08.944] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[29May2020 17:31:08.963] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[29May2020 17:31:08.995] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[29May2020 17:31:09.130] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6e05596e
+[29May2020 17:31:09.162] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: DriftyDeath[local:E:d9a93ad4] logged in with entity id 319 at (-128.5, 65.0, -212.5)
+[29May2020 17:31:09.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DriftyDeath joined the game
+[29May2020 17:31:11.628] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29May2020 17:31:11.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[29May2020 17:31:11.667] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[29May2020 17:31:11.714] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[29May2020 17:31:11.718] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 2.584 ms
+[29May2020 17:31:11.718] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[29May2020 17:31:11.718] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug took 10.00 ?s
+[29May2020 17:31:11.718] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[29May2020 17:31:11.718] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal took 6.200 ?s
+[29May2020 17:31:12.035] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[29May2020 17:31:12.160] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft took 125.2 ms
+[29May2020 17:31:12.161] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[29May2020 17:31:12.161] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug took 34.80 ?s
+[29May2020 17:31:12.161] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[29May2020 17:31:12.161] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal took 7.000 ?s
+[29May2020 17:31:12.271] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[29May2020 17:31:12.312] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft took 40.64 ms
+[29May2020 17:31:12.312] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug ...
+[29May2020 17:31:12.312] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug took 8.400 ?s
+[29May2020 17:31:12.312] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal ...
+[29May2020 17:31:12.319] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal took 6.282 ms
+[29May2020 17:31:12.321] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[29May2020 17:31:12.327] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 6.513 ms
+[29May2020 17:31:12.328] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[29May2020 17:31:12.328] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 11.30 ?s
+[29May2020 17:31:12.328] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[29May2020 17:31:12.328] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 39.50 ?s
+[29May2020 17:31:12.332] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[29May2020 17:31:12.532] [Render thread/DEBUG] [mezz.jei.plugins.vanilla.anvil.AnvilRecipeMaker/]: Registered vanilla repair recipes in 2.783 ms
+[29May2020 17:31:12.562] [Render thread/DEBUG] [mezz.jei.plugins.vanilla.anvil.AnvilRecipeMaker/]: Registered enchantment recipes in 29.70 ms
+[29May2020 17:31:12.562] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft took 230.0 ms
+[29May2020 17:31:12.562] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug ...
+[29May2020 17:31:12.562] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug took 21.80 ?s
+[29May2020 17:31:12.563] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal ...
+[29May2020 17:31:12.563] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal took 7.400 ?s
+[29May2020 17:31:12.563] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[29May2020 17:31:12.584] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 20.99 ms
+[29May2020 17:31:12.584] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[29May2020 17:31:12.584] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 6.700 ?s
+[29May2020 17:31:12.584] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[29May2020 17:31:12.584] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 4.700 ?s
+[29May2020 17:31:12.601] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[29May2020 17:31:12.601] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 203.4 ?s
+[29May2020 17:31:12.602] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[29May2020 17:31:12.602] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 13.60 ?s
+[29May2020 17:31:12.602] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[29May2020 17:31:12.602] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 5.600 ?s
+[29May2020 17:31:12.618] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[29May2020 17:31:12.666] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 47.50 ms
+[29May2020 17:31:12.666] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[29May2020 17:31:12.666] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug took 9.200 ?s
+[29May2020 17:31:12.666] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[29May2020 17:31:12.699] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal took 32.99 ms
+[29May2020 17:31:12.701] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[29May2020 17:31:12.702] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 37.90 ?s
+[29May2020 17:31:12.702] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[29May2020 17:31:12.702] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug took 5.200 ?s
+[29May2020 17:31:12.702] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[29May2020 17:31:12.702] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal took 5.100 ?s
+[29May2020 17:31:12.702] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[29May2020 17:31:12.707] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientListElementFactory/]: Registering ingredients: ItemStack
+[29May2020 17:31:12.710] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientListElementFactory/]: Registering ingredients: FluidStack
+[29May2020 17:31:12.710] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 7.922 ms
+[29May2020 17:31:12.711] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[29May2020 17:31:13.106] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientFilter/]: Indexing ingredients: Minecraft
+[29May2020 17:31:13.888] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 1.178 s
+[29May2020 17:31:13.889] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[29May2020 17:31:13.895] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 6.037 ms
+[29May2020 17:31:13.896] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[29May2020 17:31:13.951] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:brewing
+[29May2020 17:31:13.979] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:stonecutting
+[29May2020 17:31:13.982] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:crafting
+[29May2020 17:31:14.025] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:smoking
+[29May2020 17:31:14.025] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:anvil
+[29May2020 17:31:14.042] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:campfire
+[29May2020 17:31:14.043] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:furnace
+[29May2020 17:31:14.044] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:fuel
+[29May2020 17:31:14.046] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:blasting
+[29May2020 17:31:14.046] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 150.0 ms
+[29May2020 17:31:14.064] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[29May2020 17:31:14.220] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 154.8 ms
+[29May2020 17:31:14.221] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[29May2020 17:31:14.221] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft took 28.30 ?s
+[29May2020 17:31:14.222] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[29May2020 17:31:14.223] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug took 19.20 ?s
+[29May2020 17:31:14.223] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[29May2020 17:31:14.223] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal took 8.300 ?s
+[29May2020 17:31:14.299] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 2.631 s
+[29May2020 17:31:14.554] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[29May2020 17:31:17.583] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[29May2020 17:31:17.615] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7889ms or 157 ticks behind
+[29May2020 17:34:45.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29May2020 17:34:45.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[29May2020 17:34:46.033] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[29May2020 17:34:46.073] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DriftyDeath lost connection: Disconnected
+[29May2020 17:34:46.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DriftyDeath left the game
+[29May2020 17:34:46.084] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[29May2020 17:34:46.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29May2020 17:34:46.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29May2020 17:34:46.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29May2020 17:34:46.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[29May2020 17:34:46.873] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29May2020 17:34:46.873] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[29May2020 17:34:46.890] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29May2020 17:34:47.391] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[29May2020 17:34:47.515] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : C:\Users\Sum\Desktop\Minecraft_Mod_Pack\Mod_Packs\Modpack_Prototype\saves\New World\serverconfig
+[29May2020 17:34:47.515] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[29May2020 17:34:48.421] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
